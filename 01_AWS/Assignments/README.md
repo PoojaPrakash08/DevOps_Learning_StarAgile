@@ -4,3 +4,4 @@
 3. L3 - Launch AWS EC2 Ubuntu Instance and configure the Security Group - Inbound Rule: 8080. Justify the usage of Inbound Rules.
 4. L4 - Connect to the AWS EC2 Ubuntu Instance and Update default packages, install JDK, Maven, Git, and validate the versions.
 5. L5 - Install Tomcat web application server in AWS EC2 Ubuntu Instance and access Tomcat using a web browser.
+6. L6 - Create S3 Bucket and add folders and files
