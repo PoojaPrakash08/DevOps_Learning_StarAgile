@@ -1,17 +1,17 @@
 pipeline {
     agent any
     stages {
-        stage('clonestage'){
+        stage('clonestage') {
             steps {
                 git 'https://github.com/amitopenwriteup/java11-examples.git'
             }
         }
-        stage('buildpackage'){
+        stage('buildpackage') {
             steps {
                 sh 'mvn clean package'
             }
         }
-        stage ('release'){
+        stage('release') {
             steps {
                 archive 'target/*.jar'
             }
